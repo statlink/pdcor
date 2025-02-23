@@ -1,0 +1,15 @@
+sPackage: pdcor
+Type: Package
+Title: Fast and Light-Weight Partial Distance Correlation
+Version: 1.0
+Date: 2025-02-23
+Authors@R: c( person("Michail", "Tsagris", role = c("aut", "cre"), email = "mtsagris@uoc.gr"), 
+              person( "Nikolaos", "Kontemeniotis", role = "aut", email = "kontemeniotisn@gmail.com" ) )
+Author: Michail Tsagris [aut, cre], Nikolaos Kontemeniotis [aut]
+Maintainer: Michail Tsagris <mtsagris@uoc.gr>
+Depends: R (>= 4.0)
+Imports: dcov, Rfast, stats
+Suggests: Rfast2
+Description:  <ISBN:978-0-471-58495-7>.  
+License: GPL (>= 2)
+
