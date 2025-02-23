@@ -3,7 +3,7 @@
     "path": "~/GitHub/pdcor/R/pdcor.test.R",
     "project_path": "R/pdcor.test.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "954454094",
     "contents": "",
     "dirty": false,
     "created": 1740333008961.0,
@@ -11,7 +11,9 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "9,19",
+        "scrollLine": "19"
     },
     "folds": "",
     "lastKnownWriteTime": 1740331638,
