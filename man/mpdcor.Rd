@@ -1,35 +1,35 @@
-\name{Partial distance correlation}
-\alias{pdcor}
+\name{Many pPartial distance correlations}
+\alias{mpdcor}
 \title{
-Partial distance correlation
+Many partial distance correlations
 }
 
 \description{
-Partial distance correlation.
+Many partial distance correlations.
 }
 
 \usage{
-pdcor(x, y, z)
+mpdcor(y, x, z)
 }
 
 \arguments{
-\item{x}{
-A numerical vector or matrix.
-}
 \item{y}{
-A numerical vector or  matrix.
+A numerical vector.
+}
+\item{x}{
+A numerical matrix.
 }
 \item{z}{
-A numerical vector or matrix.
+A numerical vector.
 }
 }
 
 \details{
-The unbiased partial distance correlation between x and y conditioning on z is computed. \bold{Note:} currently, ony two cases are supported, all x, y, and z are vectors or they are all matrices with the same dimensions.
+This computes the unbiased pdcor between y and each column of x, conditional on the vector z.
 }
 
 \value{
-The unbiased partial distance correlation.
+A vector with many unbiased partial distance correlations.
 }
 
 \references{
@@ -50,14 +50,15 @@ R implementation and documentation: Michail Tsagris \email{mtsagris@uoc.gr}.
 }
 
 \seealso{
-\code{ \link{pdcor.test}, \link{mpdcor}
+\code{ \link{pdcor}, \link{mpdcor.test}
 }
 }
 
 \examples{
-x <- iris[, 1]
-y <- iris[, 2]
-z <- iris[, 3]
-pdcor(x, y, z)
+y <- iris[, 1]
+x <- matrirx( rnorm(150 * 10), ncol = 10 )
+z <- iris[, 2]
+mpdcor(y, x, z)
+pdcor(y, x[, 1], z)
 }
 

@@ -32,7 +32,7 @@ The number of permutations to implement.
 
 
 \details{
-Hypothesis testing using the unbiased partial distance correlation between x and y conditioning on z is computed. \bold{Note:} currently, ony two cases are supported, all x, y, and z are vectors or they are all matrices with the same dimensions.
+Permuation testing using the unbiased partial distance correlation between x and y conditioning on z is computed. \bold{Note:} currently, ony two cases are supported, all x, y, and z are vectors or they are all matrices with the same dimensions.
 }
 
 \value{
