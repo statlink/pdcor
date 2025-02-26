@@ -23,11 +23,10 @@ A numerical vector or  matrix.
 A numerical vector or matrix.
 }
 \item{type}{
-In case that all x, y, and z are vectors the user may select the type = 2 which is even faster,
-but at the expense of requiring more memory.
+In case that all x, y, and z are vectors the user may select the type = 2 which is even faster, but at the expense of requiring more memory.
 }
 \item{R}{
-The number of permutations to implement. If R = 1, the the asymptotic p-value is returned only.
+The number of permutations to implement.
 }
 }
 
