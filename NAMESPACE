@@ -2,7 +2,7 @@
 
 #importFrom("dcov", dcor, mdcor)
 #importFrom("Rfast", dcor, pdcor)
-importFrom("Rfast2", Sample.int)
+importFrom("rangen", Sample.int)
 importFrom("stats", pchisq)
 
 exportPattern("^[[:alpha:]]+")
